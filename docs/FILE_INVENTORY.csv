@@ -1,0 +1,411 @@
+original_path,size_bytes,decision,reason
+R/02_infection_submodel.R,16666,ARCHIVE,Archived in archive/legacy_scripts/ for historical code audit trail.
+R/03_latent_submodel.R,8531,ARCHIVE,Archived in archive/legacy_scripts/ for historical code audit trail.
+R/03_validate_infection_models.R,6446,ARCHIVE,Archived in archive/legacy_scripts/ for historical code audit trail.
+R/04_bootstrap_gamma.R,6442,ARCHIVE,Archived in archive/legacy_scripts/ for historical code audit trail.
+R/04_digitization_sensitivity.R,8450,ARCHIVE,Archived in archive/legacy_scripts/ for historical code audit trail.
+R/05_wetness_episodes.R,6199,ARCHIVE,Archived in archive/legacy_scripts/ for historical code audit trail.
+R/06_latent_tracking.R,6006,ARCHIVE,Archived in archive/legacy_scripts/ for historical code audit trail.
+R/07_epidemic_pressure_indices.R,6559,ARCHIVE,Archived in archive/legacy_scripts/ for historical code audit trail.
+R/07_wetness_episodes.R,5206,ARCHIVE,Archived in archive/legacy_scripts/ for historical code audit trail.
+R/08_latent_tracking.R,4123,ARCHIVE,Archived in archive/legacy_scripts/ for historical code audit trail.
+R/08_seasonal_spatial_analysis.R,6739,ARCHIVE,Archived in archive/legacy_scripts/ for historical code audit trail.
+R/09_epidemic_pressure_indices.R,5442,ARCHIVE,Archived in archive/legacy_scripts/ for historical code audit trail.
+R/10_australian_validation_pipeline.R,12786,ARCHIVE,Archived in archive/legacy_scripts/ for historical code audit trail.
+R/10_seasonal_spatial_analysis.R,5035,ARCHIVE,Archived in archive/legacy_scripts/ for historical code audit trail.
+R/12_australian_validation_pipeline.R,12153,ARCHIVE,Archived in archive/legacy_scripts/ for historical code audit trail.
+R/run_phase1_pipeline.R,1211,ARCHIVE,Archived in archive/legacy_scripts/ for historical code audit trail.
+R/run_phase2_pipeline.R,1161,ARCHIVE,Archived in archive/legacy_scripts/ for historical code audit trail.
+data/bootstrap_gamma_samples.rds,23145,EXCLUDE,Omitted as redundant: superseded Phase 1 output artifact generated under flawed P>0 wetness definition; not copied to repository to avoid obsolete bloat.
+data/phase2_annual_site_metrics.csv,161313,EXCLUDE,Omitted as redundant: superseded Phase 1 output artifact generated under flawed P>0 wetness definition; not copied to repository to avoid obsolete bloat.
+data/phase2_episodes_rh90.rds,5531020,EXCLUDE,Omitted as redundant: superseded Phase 1 output artifact generated under flawed P>0 wetness definition; not copied to repository to avoid obsolete bloat.
+data/phase2_latent_cohorts.rds,4658778,EXCLUDE,Omitted as redundant: superseded Phase 1 output artifact generated under flawed P>0 wetness definition; not copied to repository to avoid obsolete bloat.
+figures/fig1_combined_infection_submodel.png,757574,EXCLUDE,Omitted as redundant: superseded Phase 1 output artifact generated under flawed P>0 wetness definition; not copied to repository to avoid obsolete bloat.
+figures/fig1_infection_submodel_main.png,527493,EXCLUDE,Omitted as redundant: superseded Phase 1 output artifact generated under flawed P>0 wetness definition; not copied to repository to avoid obsolete bloat.
+figures/fig2a_raw_infection_data.png,160816,EXCLUDE,Omitted as redundant: superseded Phase 1 output artifact generated under flawed P>0 wetness definition; not copied to repository to avoid obsolete bloat.
+figures/fig2b_obs_vs_fitted_infection.png,127503,EXCLUDE,Omitted as redundant: superseded Phase 1 output artifact generated under flawed P>0 wetness definition; not copied to repository to avoid obsolete bloat.
+figures/fig2c_infection_residuals.png,83482,EXCLUDE,Omitted as redundant: superseded Phase 1 output artifact generated under flawed P>0 wetness definition; not copied to repository to avoid obsolete bloat.
+figures/fig2d_infection_vs_temp.png,181037,EXCLUDE,Omitted as redundant: superseded Phase 1 output artifact generated under flawed P>0 wetness definition; not copied to repository to avoid obsolete bloat.
+figures/fig2e_infection_vs_wetness.png,187907,EXCLUDE,Omitted as redundant: superseded Phase 1 output artifact generated under flawed P>0 wetness definition; not copied to repository to avoid obsolete bloat.
+figures/fig2g_infection_contour.png,275638,EXCLUDE,Omitted as redundant: superseded Phase 1 output artifact generated under flawed P>0 wetness definition; not copied to repository to avoid obsolete bloat.
+figures/fig2h_infection_models_comparison.png,249272,EXCLUDE,Omitted as redundant: superseded Phase 1 output artifact generated under flawed P>0 wetness definition; not copied to repository to avoid obsolete bloat.
+figures/fig3_combined_latent_submodel.png,239757,EXCLUDE,Omitted as redundant: superseded Phase 1 output artifact generated under flawed P>0 wetness definition; not copied to repository to avoid obsolete bloat.
+figures/fig3a_latent_period_vs_temp.png,80419,EXCLUDE,Omitted as redundant: superseded Phase 1 output artifact generated under flawed P>0 wetness definition; not copied to repository to avoid obsolete bloat.
+figures/fig3b_dev_rate_vs_temp.png,113627,EXCLUDE,Omitted as redundant: superseded Phase 1 output artifact generated under flawed P>0 wetness definition; not copied to repository to avoid obsolete bloat.
+figures/fig3c_latent_fitted_curves.png,117606,EXCLUDE,Omitted as redundant: superseded Phase 1 output artifact generated under flawed P>0 wetness definition; not copied to repository to avoid obsolete bloat.
+figures/fig3d_latent_residuals.png,78430,EXCLUDE,Omitted as redundant: superseded Phase 1 output artifact generated under flawed P>0 wetness definition; not copied to repository to avoid obsolete bloat.
+figures/fig4_combined_digitization_sensitivity.png,189858,EXCLUDE,Omitted as redundant: superseded Phase 1 output artifact generated under flawed P>0 wetness definition; not copied to repository to avoid obsolete bloat.
+figures/fig4a_infection_digitization_sensitivity.png,201342,EXCLUDE,Omitted as redundant: superseded Phase 1 output artifact generated under flawed P>0 wetness definition; not copied to repository to avoid obsolete bloat.
+figures/fig4b_latent_digitization_sensitivity.png,128169,EXCLUDE,Omitted as redundant: superseded Phase 1 output artifact generated under flawed P>0 wetness definition; not copied to repository to avoid obsolete bloat.
+figures/fig5_combined_wetness_episodes.png,156806,EXCLUDE,Omitted as redundant: superseded Phase 1 output artifact generated under flawed P>0 wetness definition; not copied to repository to avoid obsolete bloat.
+figures/fig5a_rh_threshold_sensitivity.png,93511,EXCLUDE,Omitted as redundant: superseded Phase 1 output artifact generated under flawed P>0 wetness definition; not copied to repository to avoid obsolete bloat.
+figures/fig5b_wetness_duration_distribution.png,213942,EXCLUDE,Omitted as redundant: superseded Phase 1 output artifact generated under flawed P>0 wetness definition; not copied to repository to avoid obsolete bloat.
+figures/fig6_combined_brazil_climatology.png,202269,EXCLUDE,Omitted as redundant: superseded Phase 1 output artifact generated under flawed P>0 wetness definition; not copied to repository to avoid obsolete bloat.
+figures/fig6a_latent_period_seasonal_variation.png,113833,EXCLUDE,Omitted as redundant: superseded Phase 1 output artifact generated under flawed P>0 wetness definition; not copied to repository to avoid obsolete bloat.
+figures/fig7a_monthly_epidemic_pressure_climatology.png,106839,EXCLUDE,Omitted as redundant: superseded Phase 1 output artifact generated under flawed P>0 wetness definition; not copied to repository to avoid obsolete bloat.
+figures/fig8_combined_spatial_maps.png,615104,EXCLUDE,Omitted as redundant: superseded Phase 1 output artifact generated under flawed P>0 wetness definition; not copied to repository to avoid obsolete bloat.
+figures/fig8a_spatial_map_infection_pressure.png,292726,EXCLUDE,Omitted as redundant: superseded Phase 1 output artifact generated under flawed P>0 wetness definition; not copied to repository to avoid obsolete bloat.
+figures/fig8b_spatial_map_sporulation_pressure.png,298429,EXCLUDE,Omitted as redundant: superseded Phase 1 output artifact generated under flawed P>0 wetness definition; not copied to repository to avoid obsolete bloat.
+figures/fig8c_host_infestation_risk_overlay.png,144857,EXCLUDE,Omitted as redundant: superseded Phase 1 output artifact generated under flawed P>0 wetness definition; not copied to repository to avoid obsolete bloat.
+figures/fig9_combined_australian_validation.png,362776,EXCLUDE,Omitted as redundant: superseded Phase 1 output artifact generated under flawed P>0 wetness definition; not copied to repository to avoid obsolete bloat.
+figures/fig9a_australian_seasonal_climatology.png,98850,EXCLUDE,Omitted as redundant: superseded Phase 1 output artifact generated under flawed P>0 wetness definition; not copied to repository to avoid obsolete bloat.
+figures/fig9a_australian_site_map.png,161888,EXCLUDE,Omitted as redundant: superseded Phase 1 output artifact generated under flawed P>0 wetness definition; not copied to repository to avoid obsolete bloat.
+figures/fig9b_australian_seasonal_climatology.png,98850,EXCLUDE,Omitted as redundant: superseded Phase 1 output artifact generated under flawed P>0 wetness definition; not copied to repository to avoid obsolete bloat.
+figures/fig9b_australian_site_risk_ranking.png,97468,EXCLUDE,Omitted as redundant: superseded Phase 1 output artifact generated under flawed P>0 wetness definition; not copied to repository to avoid obsolete bloat.
+figures/fig9c_australian_site_map.png,163249,EXCLUDE,Omitted as redundant: superseded Phase 1 output artifact generated under flawed P>0 wetness definition; not copied to repository to avoid obsolete bloat.
+figures/fig9c_australian_site_risk_ranking.png,97468,EXCLUDE,Omitted as redundant: superseded Phase 1 output artifact generated under flawed P>0 wetness definition; not copied to repository to avoid obsolete bloat.
+figures/figS1_all_infection_models_comparison.png,270463,EXCLUDE,Omitted as redundant: superseded Phase 1 output artifact generated under flawed P>0 wetness definition; not copied to repository to avoid obsolete bloat.
+figures/figS2_infection_residuals_diagnostics.png,105195,EXCLUDE,Omitted as redundant: superseded Phase 1 output artifact generated under flawed P>0 wetness definition; not copied to repository to avoid obsolete bloat.
+figures/figS3_bootstrap_gamma_distribution.png,62878,EXCLUDE,Omitted as redundant: superseded Phase 1 output artifact generated under flawed P>0 wetness definition; not copied to repository to avoid obsolete bloat.
+models/model_infection_analytis.rds,8140,EXCLUDE,Omitted as redundant: superseded Phase 1 output artifact generated under flawed P>0 wetness definition; not copied to repository to avoid obsolete bloat.
+models/model_infection_analytis_exp.rds,8532,EXCLUDE,Omitted as redundant: superseded Phase 1 output artifact generated under flawed P>0 wetness definition; not copied to repository to avoid obsolete bloat.
+models/model_infection_duthie.rds,7765,EXCLUDE,Omitted as redundant: superseded Phase 1 output artifact generated under flawed P>0 wetness definition; not copied to repository to avoid obsolete bloat.
+models/model_infection_fixed_breadth.rds,7751,EXCLUDE,Omitted as redundant: superseded Phase 1 output artifact generated under flawed P>0 wetness definition; not copied to repository to avoid obsolete bloat.
+models/model_infection_genbeta.rds,8244,EXCLUDE,Omitted as redundant: superseded Phase 1 output artifact generated under flawed P>0 wetness definition; not copied to repository to avoid obsolete bloat.
+models/model_infection_primary.rds,7956,EXCLUDE,Omitted as redundant: superseded Phase 1 output artifact generated under flawed P>0 wetness definition; not copied to repository to avoid obsolete bloat.
+models/model_latent_linear.rds,1168,EXCLUDE,Omitted as redundant: superseded Phase 1 output artifact generated under flawed P>0 wetness definition; not copied to repository to avoid obsolete bloat.
+models/model_latent_nonlinear.rds,1351,EXCLUDE,Omitted as redundant: superseded Phase 1 output artifact generated under flawed P>0 wetness definition; not copied to repository to avoid obsolete bloat.
+phase1_technical_report.md,15664,ARCHIVE,Archived in archive/reports/ for historical project milestone audit trail.
+phase2_technical_report.md,10243,ARCHIVE,Archived in archive/reports/ for historical project milestone audit trail.
+tables/all_infection_models_metrics.csv,992,EXCLUDE,Omitted as redundant: superseded Phase 1 output artifact generated under flawed P>0 wetness definition; not copied to repository to avoid obsolete bloat.
+tables/australian_model_validation_summary.csv,2618,EXCLUDE,Omitted as redundant: superseded Phase 1 output artifact generated under flawed P>0 wetness definition; not copied to repository to avoid obsolete bloat.
+tables/australian_sites_metadata.csv,2267,EXCLUDE,Omitted as redundant: superseded Phase 1 output artifact generated under flawed P>0 wetness definition; not copied to repository to avoid obsolete bloat.
+tables/bootstrap_gamma_results.csv,233,EXCLUDE,Omitted as redundant: superseded Phase 1 output artifact generated under flawed P>0 wetness definition; not copied to repository to avoid obsolete bloat.
+tables/brazilian_sites_epidemic_potential.csv,4997,EXCLUDE,Omitted as redundant: superseded Phase 1 output artifact generated under flawed P>0 wetness definition; not copied to repository to avoid obsolete bloat.
+tables/digitization_sensitivity_params.csv,773,EXCLUDE,Omitted as redundant: superseded Phase 1 output artifact generated under flawed P>0 wetness definition; not copied to repository to avoid obsolete bloat.
+tables/infection_model_cv_results.csv,301,EXCLUDE,Omitted as redundant: superseded Phase 1 output artifact generated under flawed P>0 wetness definition; not copied to repository to avoid obsolete bloat.
+tables/infection_model_metrics.csv,534,EXCLUDE,Omitted as redundant: superseded Phase 1 output artifact generated under flawed P>0 wetness definition; not copied to repository to avoid obsolete bloat.
+tables/infection_model_parameters.csv,2060,EXCLUDE,Omitted as redundant: superseded Phase 1 output artifact generated under flawed P>0 wetness definition; not copied to repository to avoid obsolete bloat.
+tables/latent_model_metrics.csv,340,EXCLUDE,Omitted as redundant: superseded Phase 1 output artifact generated under flawed P>0 wetness definition; not copied to repository to avoid obsolete bloat.
+tables/monthly_climatology_summary.csv,1251,EXCLUDE,Omitted as redundant: superseded Phase 1 output artifact generated under flawed P>0 wetness definition; not copied to repository to avoid obsolete bloat.
+tables/rh_sensitivity_comparison.csv,500,EXCLUDE,Omitted as redundant: superseded Phase 1 output artifact generated under flawed P>0 wetness definition; not copied to repository to avoid obsolete bloat.
+tables/site_epidemic_rankings.csv,6824,EXCLUDE,Omitted as redundant: superseded Phase 1 output artifact generated under flawed P>0 wetness definition; not copied to repository to avoid obsolete bloat.
+.DS_Store,14340,EXCLUDE,System metadata / OS artifact
+AIC_AICc_equations.docx,9967,EXCLUDE,Manuscript docx file (copyright/editorial draft)
+DelPonte_etal_Maravalia_Brazil_v2.docx,1554162,EXCLUDE,Manuscript docx file (copyright/editorial draft)
+Projeto Maravalia-Brasil/A_review_of_Australian_classical_biological_contro.pdf,446631,EXCLUDE,Excluded directory (Projeto Maravalia-Brasil) per project data policy
+Projeto Maravalia-Brasil/Article_modeling_epidemic_potential/DelPonte_etal_Maravalia_Brazil.docx,1012332,EXCLUDE,Excluded directory (Projeto Maravalia-Brasil) per project data policy
+Projeto Maravalia-Brasil/Article_modeling_epidemic_potential/DelPonte_etal_Maravalia_Brazil_v2.docx,1995039,EXCLUDE,Excluded directory (Projeto Maravalia-Brasil) per project data policy
+Projeto Maravalia-Brasil/Asparagus post-release trelice Morin.pdf,2469152,EXCLUDE,Excluded directory (Projeto Maravalia-Brasil) per project data policy
+Projeto Maravalia-Brasil/Bridal creeper biocontrol - Trellis - Broulee mod.pptx,1781527,EXCLUDE,Excluded directory (Projeto Maravalia-Brasil) per project data policy
+Projeto Maravalia-Brasil/Impact experiments - Bridal creeper rust - Morin-compressed - Cópia.ppt,2395136,EXCLUDE,Excluded directory (Projeto Maravalia-Brasil) per project data policy
+Projeto Maravalia-Brasil/Kordyana x Tradescantia Australia.pdf,8259979,EXCLUDE,Excluded directory (Projeto Maravalia-Brasil) per project data policy
+Projeto Maravalia-Brasil/Post-release monitoring paper SA 2020.pdf,744716,EXCLUDE,Excluded directory (Projeto Maravalia-Brasil) per project data policy
+Projeto Maravalia-Brasil/Review_of_approaches_to_evaluate_the_effectiveness.pdf,758720,EXCLUDE,Excluded directory (Projeto Maravalia-Brasil) per project data policy
+articles pdfs/BF01103735.pdf,1690194,EXCLUDE,Excluded directory (articles pdfs) per project data policy
+articles pdfs/Plant Pathology - 2004 - Tomley - Establishment of  and preliminary impact studies on  the rust  Maravalia cryptostegiae .pdf,355707,EXCLUDE,Excluded directory (articles pdfs) per project data policy
+download_era5_maravalia.R,8527,EXCLUDE,Deprecated/misnamed ERA5 download script superseded by clean download pipeline
+era5_maravalia/coordinates_requiring_verification.csv,78,EXCLUDE,Excluded directory (era5_maravalia) per project data policy
+era5_maravalia/cryptostegia_points_with_era5_cells.csv,6598,EXCLUDE,Excluded directory (era5_maravalia) per project data policy
+era5_maravalia/era5_unique_cells.csv,3054,EXCLUDE,Excluded directory (era5_maravalia) per project data policy
+era5_maravalia/hourly/lat_-4.8_lon_-38.0.rds,1561648,EXCLUDE,Excluded directory (era5_maravalia) per project data policy
+era5_maravalia/hourly/lat_-4.8_lon_-38.7.rds,1567634,EXCLUDE,Excluded directory (era5_maravalia) per project data policy
+era5_maravalia/hourly/lat_-4.8_lon_-40.1.rds,1561683,EXCLUDE,Excluded directory (era5_maravalia) per project data policy
+era5_maravalia/hourly/lat_-5.0_lon_-38.0.rds,1572660,EXCLUDE,Excluded directory (era5_maravalia) per project data policy
+era5_maravalia/hourly/lat_-5.0_lon_-38.6.rds,1577372,EXCLUDE,Excluded directory (era5_maravalia) per project data policy
+era5_maravalia/hourly/lat_-5.0_lon_-39.0.rds,1577942,EXCLUDE,Excluded directory (era5_maravalia) per project data policy
+era5_maravalia/hourly/lat_-5.1_lon_-38.0.rds,1581046,EXCLUDE,Excluded directory (era5_maravalia) per project data policy
+era5_maravalia/hourly/lat_-5.1_lon_-38.1.rds,1579791,EXCLUDE,Excluded directory (era5_maravalia) per project data policy
+era5_maravalia/hourly/lat_-5.1_lon_-38.3.rds,1582904,EXCLUDE,Excluded directory (era5_maravalia) per project data policy
+era5_maravalia/hourly/lat_-5.2_lon_-38.1.rds,1582185,EXCLUDE,Excluded directory (era5_maravalia) per project data policy
+era5_maravalia/hourly/lat_-5.4_lon_-38.3.rds,1585835,EXCLUDE,Excluded directory (era5_maravalia) per project data policy
+era5_maravalia/hourly/lat_-5.5_lon_-39.5.rds,1584718,EXCLUDE,Excluded directory (era5_maravalia) per project data policy
+era5_maravalia/hourly/lat_-6.3_lon_-38.7.rds,1591026,EXCLUDE,Excluded directory (era5_maravalia) per project data policy
+figures_v2/fig1_infection_submodel_main.png,523880,EXCLUDE,Superseded v2 figures (replaced by figures_v3)
+figures_v2/fig5_combined_wetness_episodes.png,293334,EXCLUDE,Superseded v2 figures (replaced by figures_v3)
+figures_v2/fig6_combined_brazil_climatology.png,184816,EXCLUDE,Superseded v2 figures (replaced by figures_v3)
+figures_v2/fig6a_latent_period_seasonal_variation.png,97458,EXCLUDE,Superseded v2 figures (replaced by figures_v3)
+figures_v2/fig7a_monthly_epidemic_pressure_climatology.png,98018,EXCLUDE,Superseded v2 figures (replaced by figures_v3)
+figures_v2/fig8_combined_spatial_maps.png,616598,EXCLUDE,Superseded v2 figures (replaced by figures_v3)
+figures_v2/fig8a_spatial_map_infection_pressure.png,292697,EXCLUDE,Superseded v2 figures (replaced by figures_v3)
+figures_v2/fig8b_spatial_map_sporulation_pressure.png,299285,EXCLUDE,Superseded v2 figures (replaced by figures_v3)
+figures_v2/fig8c_host_infestation_risk_overlay.png,148297,EXCLUDE,Superseded v2 figures (replaced by figures_v3)
+figures_v2/fig9_combined_australian_validation.png,364138,EXCLUDE,Superseded v2 figures (replaced by figures_v3)
+figures_v2/fig9a_australian_seasonal_climatology.png,99573,EXCLUDE,Superseded v2 figures (replaced by figures_v3)
+figures_v2/fig9b_australian_site_risk_ranking.png,97723,EXCLUDE,Superseded v2 figures (replaced by figures_v3)
+figures_v2/fig9c_australian_site_map.png,162428,EXCLUDE,Superseded v2 figures (replaced by figures_v3)
+figures_v2/figS1_all_infection_models_comparison.png,267423,EXCLUDE,Superseded v2 figures (replaced by figures_v3)
+figures_v2/figS2_infection_residuals_diagnostics.png,104332,EXCLUDE,Superseded v2 figures (replaced by figures_v3)
+figures_v2/figS3_bootstrap_gamma_distribution.png,59334,EXCLUDE,Superseded v2 figures (replaced by figures_v3)
+report/.Rhistory,14705,EXCLUDE,Manuscript report draft and rendering directory
+report/figures/fig2a_raw_infection_data.png,165584,EXCLUDE,Manuscript report draft and rendering directory
+report/figures/fig2b_obs_vs_fitted_infection.png,129055,EXCLUDE,Manuscript report draft and rendering directory
+report/figures/fig2c_infection_residuals.png,84887,EXCLUDE,Manuscript report draft and rendering directory
+report/figures/fig2d_infection_vs_temp.png,184883,EXCLUDE,Manuscript report draft and rendering directory
+report/figures/fig2e_infection_vs_wetness.png,189127,EXCLUDE,Manuscript report draft and rendering directory
+report/figures/fig2g_infection_contour.png,278065,EXCLUDE,Manuscript report draft and rendering directory
+report/figures/fig3a_latent_period_vs_temp.png,82847,EXCLUDE,Manuscript report draft and rendering directory
+report/figures/fig3b_dev_rate_vs_temp.png,117029,EXCLUDE,Manuscript report draft and rendering directory
+report/figures/fig3c_latent_fitted_curves.png,116027,EXCLUDE,Manuscript report draft and rendering directory
+report/figures/fig3d_latent_residuals.png,80712,EXCLUDE,Manuscript report draft and rendering directory
+report/figures/fig4a_infection_digitization_sensitivity.png,202206,EXCLUDE,Manuscript report draft and rendering directory
+report/figures/fig4b_latent_digitization_sensitivity.png,129487,EXCLUDE,Manuscript report draft and rendering directory
+report/figures/fig5a_rh_threshold_sensitivity.png,97558,EXCLUDE,Manuscript report draft and rendering directory
+report/figures/fig5b_wetness_duration_distribution.png,214655,EXCLUDE,Manuscript report draft and rendering directory
+report/figures/fig6a_latent_period_seasonal_variation.png,149446,EXCLUDE,Manuscript report draft and rendering directory
+report/figures/fig7a_monthly_epidemic_pressure_climatology.png,146641,EXCLUDE,Manuscript report draft and rendering directory
+report/figures/fig8a_spatial_map_infection_pressure.png,270647,EXCLUDE,Manuscript report draft and rendering directory
+report/figures/fig8b_spatial_map_sporulation_pressure.png,272500,EXCLUDE,Manuscript report draft and rendering directory
+report/figures/fig8c_host_infestation_risk_overlay.png,202250,EXCLUDE,Manuscript report draft and rendering directory
+report/figures/figS3_bootstrap_gamma_distribution.png,62878,EXCLUDE,Manuscript report draft and rendering directory
+report/manuscript.docx,1684049,EXCLUDE,Manuscript docx file (copyright/editorial draft)
+report/manuscript.docx.docx,1685497,EXCLUDE,Manuscript docx file (copyright/editorial draft)
+report/manuscript.docx.html,4445800,EXCLUDE,Manuscript report draft and rendering directory
+report/manuscript.docx.html.md,62505,EXCLUDE,Manuscript report draft and rendering directory
+report/manuscript.docx.md,62501,EXCLUDE,Manuscript report draft and rendering directory
+report/manuscript.docx_files/libs/bootstrap/bootstrap-81e35ebdb4125010edbabe6010586085.min.css,408956,EXCLUDE,Manuscript report draft and rendering directory
+report/manuscript.docx_files/libs/bootstrap/bootstrap-icons.css,98163,EXCLUDE,Manuscript report draft and rendering directory
+report/manuscript.docx_files/libs/bootstrap/bootstrap-icons.woff,176200,EXCLUDE,Manuscript report draft and rendering directory
+report/manuscript.docx_files/libs/bootstrap/bootstrap.min.js,80668,EXCLUDE,Manuscript report draft and rendering directory
+report/manuscript.docx_files/libs/clipboard/clipboard.min.js,9160,EXCLUDE,Manuscript report draft and rendering directory
+report/manuscript.docx_files/libs/quarto-html/anchor.min.js,5888,EXCLUDE,Manuscript report draft and rendering directory
+report/manuscript.docx_files/libs/quarto-html/popper.min.js,20084,EXCLUDE,Manuscript report draft and rendering directory
+report/manuscript.docx_files/libs/quarto-html/quarto-syntax-highlighting-e26003cea8cd680ca0c55a263523d882.css,3177,EXCLUDE,Manuscript report draft and rendering directory
+report/manuscript.docx_files/libs/quarto-html/quarto.js,28947,EXCLUDE,Manuscript report draft and rendering directory
+report/manuscript.docx_files/libs/quarto-html/tippy.css,1409,EXCLUDE,Manuscript report draft and rendering directory
+report/manuscript.docx_files/libs/quarto-html/tippy.umd.min.js,24033,EXCLUDE,Manuscript report draft and rendering directory
+report/manuscript.html,4443678,EXCLUDE,Manuscript report draft and rendering directory
+report/manuscript.html.md,62501,EXCLUDE,Manuscript report draft and rendering directory
+report/manuscript.qmd,46643,EXCLUDE,Manuscript report draft and rendering directory
+report/manuscript_files/libs/bootstrap/bootstrap-813c323200a87c37e262811031999de4.min.css,419841,EXCLUDE,Manuscript report draft and rendering directory
+report/manuscript_files/libs/bootstrap/bootstrap-81e35ebdb4125010edbabe6010586085.min.css,408956,EXCLUDE,Manuscript report draft and rendering directory
+report/manuscript_files/libs/bootstrap/bootstrap-icons.css,98163,EXCLUDE,Manuscript report draft and rendering directory
+report/manuscript_files/libs/bootstrap/bootstrap-icons.woff,176200,EXCLUDE,Manuscript report draft and rendering directory
+report/manuscript_files/libs/bootstrap/bootstrap.min.js,80668,EXCLUDE,Manuscript report draft and rendering directory
+report/manuscript_files/libs/clipboard/clipboard.min.js,9160,EXCLUDE,Manuscript report draft and rendering directory
+report/manuscript_files/libs/quarto-html/anchor.min.js,5888,EXCLUDE,Manuscript report draft and rendering directory
+report/manuscript_files/libs/quarto-html/popper.min.js,20084,EXCLUDE,Manuscript report draft and rendering directory
+report/manuscript_files/libs/quarto-html/quarto-syntax-highlighting-37eea08aefeeee20ff55810ff984fec1.css,3678,EXCLUDE,Manuscript report draft and rendering directory
+report/manuscript_files/libs/quarto-html/quarto-syntax-highlighting-e26003cea8cd680ca0c55a263523d882.css,3177,EXCLUDE,Manuscript report draft and rendering directory
+report/manuscript_files/libs/quarto-html/quarto.js,26830,EXCLUDE,Manuscript report draft and rendering directory
+report/manuscript_files/libs/quarto-html/tabsets/tabsets.js,2882,EXCLUDE,Manuscript report draft and rendering directory
+report/manuscript_files/libs/quarto-html/tippy.css,1409,EXCLUDE,Manuscript report draft and rendering directory
+report/manuscript_files/libs/quarto-html/tippy.umd.min.js,24033,EXCLUDE,Manuscript report draft and rendering directory
+report/references.bib,4783,EXCLUDE,Manuscript report draft and rendering directory
+review_2026-09-28/epi_scenarios_output.txt,0,EXCLUDE,Empty/temporary console output file
+review_2026-09-28/logs/02_infection_submodel_v2.log,1568,EXCLUDE,Internal review validation directory (logs)
+review_2026-09-28/logs/03_validate_infection_models_v2.log,1473,EXCLUDE,Internal review validation directory (logs)
+review_2026-09-28/logs/04_bootstrap_gamma_v2.log,806,EXCLUDE,Internal review validation directory (logs)
+review_2026-09-28/logs/07_wetness_episodes_v2.log,910,EXCLUDE,Internal review validation directory (logs)
+review_2026-09-28/logs/07_wetness_episodes_v2_maxh24.log,910,EXCLUDE,Internal review validation directory (logs)
+review_2026-09-28/logs/07_wetness_episodes_v2_precip1.log,910,EXCLUDE,Internal review validation directory (logs)
+review_2026-09-28/logs/08_latent_tracking_v2.log,909,EXCLUDE,Internal review validation directory (logs)
+review_2026-09-28/logs/08_latent_tracking_v2_maxh24.log,909,EXCLUDE,Internal review validation directory (logs)
+review_2026-09-28/logs/08_latent_tracking_v2_precip1.log,907,EXCLUDE,Internal review validation directory (logs)
+review_2026-09-28/logs/09_epidemic_pressure_indices_v2.log,845,EXCLUDE,Internal review validation directory (logs)
+review_2026-09-28/logs/09_epidemic_pressure_indices_v2_maxh24.log,845,EXCLUDE,Internal review validation directory (logs)
+review_2026-09-28/logs/09_epidemic_pressure_indices_v2_precip1.log,845,EXCLUDE,Internal review validation directory (logs)
+review_2026-09-28/logs/10_seasonal_spatial_analysis_v2.log,1548,EXCLUDE,Internal review validation directory (logs)
+review_2026-09-28/logs/10_seasonal_spatial_analysis_v2_maxh24.log,1548,EXCLUDE,Internal review validation directory (logs)
+review_2026-09-28/logs/10_seasonal_spatial_analysis_v2_precip1.log,1548,EXCLUDE,Internal review validation directory (logs)
+review_2026-09-28/logs/12_australian_validation_pipeline_v2.log,1695,EXCLUDE,Internal review validation directory (logs)
+review_2026-09-28/logs/12_australian_validation_pipeline_v2_maxh24.log,1695,EXCLUDE,Internal review validation directory (logs)
+review_2026-09-28/logs/12_australian_validation_pipeline_v2_precip1.log,1695,EXCLUDE,Internal review validation directory (logs)
+review_2026-09-28/v3_check/australian_model_validation_summary.csv,2585,EXCLUDE,Internal review validation directory (v3_check)
+review_2026-09-28/v3_check/monthly_climatology_summary.csv,1274,EXCLUDE,Internal review validation directory (v3_check)
+review_2026-09-28/v3_check/phase2_annual_site_metrics.csv,159551,EXCLUDE,Internal review validation directory (v3_check)
+review_2026-09-28/v3_check/site_epidemic_rankings.csv,6843,EXCLUDE,Internal review validation directory (v3_check)
+scratch/check_max_predictions.R,1421,EXCLUDE,Excluded directory (scratch) per project data policy
+scratch/check_plot_d_fitted.R,2088,EXCLUDE,Excluded directory (scratch) per project data policy
+scratch/test_aus_combined.R,3535,EXCLUDE,Excluded directory (scratch) per project data policy
+scratch/test_aus_combined.png,328604,EXCLUDE,Excluded directory (scratch) per project data policy
+scratch/test_aus_map.R,1432,EXCLUDE,Excluded directory (scratch) per project data policy
+scratch/test_aus_map.png,157310,EXCLUDE,Excluded directory (scratch) per project data policy
+scratch/test_aus_vertical.R,3399,EXCLUDE,Excluded directory (scratch) per project data policy
+scratch/test_aus_vertical.png,364907,EXCLUDE,Excluded directory (scratch) per project data policy
+scratch/test_bootstrap.R,3836,EXCLUDE,Excluded directory (scratch) per project data policy
+scratch/test_br_map.png,297485,EXCLUDE,Excluded directory (scratch) per project data policy
+scratch/test_br_map_layer.R,2005,EXCLUDE,Excluded directory (scratch) per project data policy
+scratch/test_brazil_states.R,442,EXCLUDE,Excluded directory (scratch) per project data policy
+scratch/test_constrained_m3.R,2527,EXCLUDE,Excluded directory (scratch) per project data policy
+scratch/test_direct_centered.R,1216,EXCLUDE,Excluded directory (scratch) per project data policy
+scratch/test_fig1_2x2.R,3065,EXCLUDE,Excluded directory (scratch) per project data policy
+scratch/test_fig1_user_4panel.R,3030,EXCLUDE,Excluded directory (scratch) per project data policy
+scratch/test_fig_d_viridis.png,241021,EXCLUDE,Excluded directory (scratch) per project data policy
+scratch/test_model3_formulations.R,3368,EXCLUDE,Excluded directory (scratch) per project data policy
+scratch/test_models.R,3765,EXCLUDE,Excluded directory (scratch) per project data policy
+scratch/test_optionB_cv.R,2071,EXCLUDE,Excluded directory (scratch) per project data policy
+scratch/test_optionB_full.R,1803,EXCLUDE,Excluded directory (scratch) per project data policy
+scratch/test_spike_fix.R,1556,EXCLUDE,Excluded directory (scratch) per project data policy
+scratch/test_validation.R,3739,EXCLUDE,Excluded directory (scratch) per project data policy
+tables_v2_P1/all_infection_models_metrics.csv,1000,EXCLUDE,Intermediate sensitivity run variant directory
+tables_v2_P1/australian_model_validation_summary.csv,2599,EXCLUDE,Intermediate sensitivity run variant directory
+tables_v2_P1/bootstrap_gamma_results.csv,245,EXCLUDE,Intermediate sensitivity run variant directory
+tables_v2_P1/infection_model_metrics.csv,545,EXCLUDE,Intermediate sensitivity run variant directory
+tables_v2_P1/infection_model_parameters.csv,2052,EXCLUDE,Intermediate sensitivity run variant directory
+tables_v2_P1/monthly_climatology_summary.csv,1259,EXCLUDE,Intermediate sensitivity run variant directory
+tables_v2_P1/rh_sensitivity_comparison.csv,504,EXCLUDE,Intermediate sensitivity run variant directory
+tables_v2_P1/site_epidemic_rankings.csv,6840,EXCLUDE,Intermediate sensitivity run variant directory
+tables_v2_split24/all_infection_models_metrics.csv,1000,EXCLUDE,Intermediate sensitivity run variant directory
+tables_v2_split24/australian_model_validation_summary.csv,2613,EXCLUDE,Intermediate sensitivity run variant directory
+tables_v2_split24/bootstrap_gamma_results.csv,245,EXCLUDE,Intermediate sensitivity run variant directory
+tables_v2_split24/infection_model_metrics.csv,545,EXCLUDE,Intermediate sensitivity run variant directory
+tables_v2_split24/infection_model_parameters.csv,2052,EXCLUDE,Intermediate sensitivity run variant directory
+tables_v2_split24/monthly_climatology_summary.csv,1242,EXCLUDE,Intermediate sensitivity run variant directory
+tables_v2_split24/rh_sensitivity_comparison.csv,499,EXCLUDE,Intermediate sensitivity run variant directory
+tables_v2_split24/site_epidemic_rankings.csv,6879,EXCLUDE,Intermediate sensitivity run variant directory
+R/01_qc_and_data_prep.R,4876,INCLUDE,Final active pipeline/figure analysis script
+R/02_infection_submodel_v2.R,17022,INCLUDE,Final active pipeline/figure analysis script
+R/03_validate_infection_models_v2.R,7520,INCLUDE,Final active pipeline/figure analysis script
+R/04_bootstrap_gamma_v2.R,7594,INCLUDE,Final active pipeline/figure analysis script
+R/05_latent_submodel.R,6202,INCLUDE,Final active pipeline/figure analysis script
+R/06_digitization_sensitivity.R,7085,INCLUDE,Final active pipeline/figure analysis script
+R/07_wetness_episodes_v2.R,6335,INCLUDE,Final active pipeline/figure analysis script
+R/08_latent_tracking_v2.R,4496,INCLUDE,Final active pipeline/figure analysis script
+R/09_download_australian_nasapower.R,5295,INCLUDE,Final active pipeline/figure analysis script
+R/09_epidemic_pressure_indices_v2.R,6157,INCLUDE,Final active pipeline/figure analysis script
+R/09_epidemic_pressure_indices_v3.R,6315,INCLUDE,Final active pipeline/figure analysis script
+R/10_seasonal_spatial_analysis_v2.R,5285,INCLUDE,Final active pipeline/figure analysis script
+R/10_seasonal_spatial_analysis_v3.R,7982,INCLUDE,Final active pipeline/figure analysis script
+R/12_australian_validation_pipeline_v2.R,13243,INCLUDE,Final active pipeline/figure analysis script
+R/12_australian_validation_pipeline_v3.R,12342,INCLUDE,Final active pipeline/figure analysis script
+R/maravalia_functions_v2.R,2966,INCLUDE,Final active pipeline/figure analysis script
+R/run_phase2_v2.R,741,INCLUDE,Final active pipeline/figure analysis script
+cryptostegia_nordeste_bonilla2023.xlsx,16678,INCLUDE,Primary digitized experimental or geographical input dataset
+data/brazilian_sites_qc.csv,7125,INCLUDE,Primary digitized experimental or geographical input dataset
+data/digitized_infection_data.csv,626,INCLUDE,Primary digitized experimental or geographical input dataset
+data/digitized_latent_period.csv,210,INCLUDE,Primary digitized experimental or geographical input dataset
+data/weather_structural_qc.csv,11517,INCLUDE,Primary digitized experimental or geographical input dataset
+data_v2/bootstrap_gamma_samples.rds,15422,INCLUDE,Derived data artifact (cached bootstrap / simulation output)
+data_v2/phase2_annual_site_metrics.csv,159551,INCLUDE,Derived data artifact (cached bootstrap / simulation output)
+data_v2/phase2_episodes_rh90.rds,5069995,INCLUDE,Derived data artifact (cached bootstrap / simulation output)
+data_v2/phase2_latent_cohorts.rds,5390459,INCLUDE,Derived data artifact (cached bootstrap / simulation output)
+figures_v3/Fig1_infection_submodel.pdf,679041,INCLUDE,Reference final manuscript figures (kept in reference_outputs/)
+figures_v3/Fig1_infection_submodel.png,523880,INCLUDE,Reference final manuscript figures (kept in reference_outputs/)
+figures_v3/Fig2_latent_period.pdf,410129,INCLUDE,Reference final manuscript figures (kept in reference_outputs/)
+figures_v3/Fig2_latent_period.png,239757,INCLUDE,Reference final manuscript figures (kept in reference_outputs/)
+figures_v3/Fig3_seasonal_climatology.pdf,18951,INCLUDE,Reference final manuscript figures (kept in reference_outputs/)
+figures_v3/Fig3_seasonal_climatology.png,134923,INCLUDE,Reference final manuscript figures (kept in reference_outputs/)
+figures_v3/Fig4_spatial_maps.pdf,81166,INCLUDE,Reference final manuscript figures (kept in reference_outputs/)
+figures_v3/Fig4_spatial_maps.png,468599,INCLUDE,Reference final manuscript figures (kept in reference_outputs/)
+figures_v3/Fig5_australia.pdf,21434,INCLUDE,Reference final manuscript figures (kept in reference_outputs/)
+figures_v3/Fig5_australia.png,311576,INCLUDE,Reference final manuscript figures (kept in reference_outputs/)
+figures_v3/FigS1_bootstrap_gamma.pdf,186206,INCLUDE,Reference final manuscript figures (kept in reference_outputs/)
+figures_v3/FigS1_bootstrap_gamma.png,59334,INCLUDE,Reference final manuscript figures (kept in reference_outputs/)
+figures_v3/FigS2_model_comparison.pdf,418685,INCLUDE,Reference final manuscript figures (kept in reference_outputs/)
+figures_v3/FigS2_model_comparison.png,267423,INCLUDE,Reference final manuscript figures (kept in reference_outputs/)
+figures_v3/FigS3_residuals.pdf,256131,INCLUDE,Reference final manuscript figures (kept in reference_outputs/)
+figures_v3/FigS3_residuals.png,104332,INCLUDE,Reference final manuscript figures (kept in reference_outputs/)
+figures_v3/FigS4_digitization_sensitivity.pdf,278367,INCLUDE,Reference final manuscript figures (kept in reference_outputs/)
+figures_v3/FigS4_digitization_sensitivity.png,189858,INCLUDE,Reference final manuscript figures (kept in reference_outputs/)
+models_v2/model_infection_analytis.rds,8144,INCLUDE,Reference fitted models for pipeline verification (kept in reference_outputs/)
+models_v2/model_infection_analytis_exp.rds,8592,INCLUDE,Reference fitted models for pipeline verification (kept in reference_outputs/)
+models_v2/model_infection_duthie.rds,7760,INCLUDE,Reference fitted models for pipeline verification (kept in reference_outputs/)
+models_v2/model_infection_fixed_breadth.rds,7754,INCLUDE,Reference fitted models for pipeline verification (kept in reference_outputs/)
+models_v2/model_infection_genbeta.rds,8245,INCLUDE,Reference fitted models for pipeline verification (kept in reference_outputs/)
+models_v2/model_infection_primary.rds,7958,INCLUDE,Reference fitted models for pipeline verification (kept in reference_outputs/)
+nasapower_australia/australian_sites_metadata.csv,2267,INCLUDE,Metadata for Australian field validation sites (Tomley & Evans 2004)
+nasapower_australia/hourly/aus_site_01_lat_-17.1517_lon_144.5244.rds,1787683,INCLUDE-IGNORED,"Raw NASA POWER hourly meteorological record; git-ignored per repo data policy, verifiable via data/raw/MANIFEST.csv."
+nasapower_australia/hourly/aus_site_02_lat_-14.9356_lon_144.2047.rds,1789370,INCLUDE-IGNORED,"Raw NASA POWER hourly meteorological record; git-ignored per repo data policy, verifiable via data/raw/MANIFEST.csv."
+nasapower_australia/hourly/aus_site_03_lat_-16.6342_lon_144.0042.rds,1790284,INCLUDE-IGNORED,"Raw NASA POWER hourly meteorological record; git-ignored per repo data policy, verifiable via data/raw/MANIFEST.csv."
+nasapower_australia/hourly/aus_site_04_lat_-15.5458_lon_141.7258.rds,1759452,INCLUDE-IGNORED,"Raw NASA POWER hourly meteorological record; git-ignored per repo data policy, verifiable via data/raw/MANIFEST.csv."
+nasapower_australia/hourly/aus_site_05_lat_-19.7431_lon_147.4647.rds,1730694,INCLUDE-IGNORED,"Raw NASA POWER hourly meteorological record; git-ignored per repo data policy, verifiable via data/raw/MANIFEST.csv."
+nasapower_australia/hourly/aus_site_06_lat_-17.1008_lon_140.9167.rds,1656590,INCLUDE-IGNORED,"Raw NASA POWER hourly meteorological record; git-ignored per repo data policy, verifiable via data/raw/MANIFEST.csv."
+nasapower_australia/hourly/aus_site_07_lat_-18.2917_lon_143.5475.rds,1801311,INCLUDE-IGNORED,"Raw NASA POWER hourly meteorological record; git-ignored per repo data policy, verifiable via data/raw/MANIFEST.csv."
+nasapower_australia/hourly/aus_site_08_lat_-16.4833_lon_145.2333.rds,1789177,INCLUDE-IGNORED,"Raw NASA POWER hourly meteorological record; git-ignored per repo data policy, verifiable via data/raw/MANIFEST.csv."
+nasapower_australia/hourly/aus_site_09_lat_-17.8500_lon_142.3667.rds,1771870,INCLUDE-IGNORED,"Raw NASA POWER hourly meteorological record; git-ignored per repo data policy, verifiable via data/raw/MANIFEST.csv."
+nasapower_australia/hourly/aus_site_10_lat_-23.3750_lon_150.5117.rds,1799506,INCLUDE-IGNORED,"Raw NASA POWER hourly meteorological record; git-ignored per repo data policy, verifiable via data/raw/MANIFEST.csv."
+nasapower_australia/hourly/aus_site_11_lat_-20.0764_lon_146.2611.rds,1787160,INCLUDE-IGNORED,"Raw NASA POWER hourly meteorological record; git-ignored per repo data policy, verifiable via data/raw/MANIFEST.csv."
+nasapower_australia/hourly/aus_site_12_lat_-20.8433_lon_144.2008.rds,1750467,INCLUDE-IGNORED,"Raw NASA POWER hourly meteorological record; git-ignored per repo data policy, verifiable via data/raw/MANIFEST.csv."
+nasapower_australia/hourly/aus_site_13_lat_-15.5583_lon_144.4447.rds,1777824,INCLUDE-IGNORED,"Raw NASA POWER hourly meteorological record; git-ignored per repo data policy, verifiable via data/raw/MANIFEST.csv."
+nasapower_maravalia/hourly/lat_-2.9_lon_-40.1.rds,1701134,INCLUDE-IGNORED,"Raw NASA POWER hourly meteorological record; git-ignored per repo data policy, verifiable via data/raw/MANIFEST.csv."
+nasapower_maravalia/hourly/lat_-2.9_lon_-40.2.rds,1701132,INCLUDE-IGNORED,"Raw NASA POWER hourly meteorological record; git-ignored per repo data policy, verifiable via data/raw/MANIFEST.csv."
+nasapower_maravalia/hourly/lat_-2.9_lon_-41.7.rds,1717171,INCLUDE-IGNORED,"Raw NASA POWER hourly meteorological record; git-ignored per repo data policy, verifiable via data/raw/MANIFEST.csv."
+nasapower_maravalia/hourly/lat_-2.9_lon_-41.8.rds,1717170,INCLUDE-IGNORED,"Raw NASA POWER hourly meteorological record; git-ignored per repo data policy, verifiable via data/raw/MANIFEST.csv."
+nasapower_maravalia/hourly/lat_-3.0_lon_-41.1.rds,1713573,INCLUDE-IGNORED,"Raw NASA POWER hourly meteorological record; git-ignored per repo data policy, verifiable via data/raw/MANIFEST.csv."
+nasapower_maravalia/hourly/lat_-3.0_lon_-41.2.rds,1713571,INCLUDE-IGNORED,"Raw NASA POWER hourly meteorological record; git-ignored per repo data policy, verifiable via data/raw/MANIFEST.csv."
+nasapower_maravalia/hourly/lat_-3.1_lon_-40.2.rds,1701134,INCLUDE-IGNORED,"Raw NASA POWER hourly meteorological record; git-ignored per repo data policy, verifiable via data/raw/MANIFEST.csv."
+nasapower_maravalia/hourly/lat_-3.2_lon_-39.9.rds,1701133,INCLUDE-IGNORED,"Raw NASA POWER hourly meteorological record; git-ignored per repo data policy, verifiable via data/raw/MANIFEST.csv."
+nasapower_maravalia/hourly/lat_-3.2_lon_-40.1.rds,1701135,INCLUDE-IGNORED,"Raw NASA POWER hourly meteorological record; git-ignored per repo data policy, verifiable via data/raw/MANIFEST.csv."
+nasapower_maravalia/hourly/lat_-3.3_lon_-39.3.rds,1687418,INCLUDE-IGNORED,"Raw NASA POWER hourly meteorological record; git-ignored per repo data policy, verifiable via data/raw/MANIFEST.csv."
+nasapower_maravalia/hourly/lat_-3.3_lon_-39.9.rds,1730843,INCLUDE-IGNORED,"Raw NASA POWER hourly meteorological record; git-ignored per repo data policy, verifiable via data/raw/MANIFEST.csv."
+nasapower_maravalia/hourly/lat_-3.3_lon_-40.5.rds,1711299,INCLUDE-IGNORED,"Raw NASA POWER hourly meteorological record; git-ignored per repo data policy, verifiable via data/raw/MANIFEST.csv."
+nasapower_maravalia/hourly/lat_-3.3_lon_-41.0.rds,1714075,INCLUDE-IGNORED,"Raw NASA POWER hourly meteorological record; git-ignored per repo data policy, verifiable via data/raw/MANIFEST.csv."
+nasapower_maravalia/hourly/lat_-3.4_lon_-40.2.rds,1730842,INCLUDE-IGNORED,"Raw NASA POWER hourly meteorological record; git-ignored per repo data policy, verifiable via data/raw/MANIFEST.csv."
+nasapower_maravalia/hourly/lat_-3.4_lon_-40.3.rds,1730842,INCLUDE-IGNORED,"Raw NASA POWER hourly meteorological record; git-ignored per repo data policy, verifiable via data/raw/MANIFEST.csv."
+nasapower_maravalia/hourly/lat_-3.4_lon_-40.7.rds,1711303,INCLUDE-IGNORED,"Raw NASA POWER hourly meteorological record; git-ignored per repo data policy, verifiable via data/raw/MANIFEST.csv."
+nasapower_maravalia/hourly/lat_-3.4_lon_-41.0.rds,1714075,INCLUDE-IGNORED,"Raw NASA POWER hourly meteorological record; git-ignored per repo data policy, verifiable via data/raw/MANIFEST.csv."
+nasapower_maravalia/hourly/lat_-3.5_lon_-39.5.rds,1687411,INCLUDE-IGNORED,"Raw NASA POWER hourly meteorological record; git-ignored per repo data policy, verifiable via data/raw/MANIFEST.csv."
+nasapower_maravalia/hourly/lat_-3.6_lon_-39.0.rds,1615571,INCLUDE-IGNORED,"Raw NASA POWER hourly meteorological record; git-ignored per repo data policy, verifiable via data/raw/MANIFEST.csv."
+nasapower_maravalia/hourly/lat_-3.6_lon_-39.4.rds,1687425,INCLUDE-IGNORED,"Raw NASA POWER hourly meteorological record; git-ignored per repo data policy, verifiable via data/raw/MANIFEST.csv."
+nasapower_maravalia/hourly/lat_-3.6_lon_-40.6.rds,1711304,INCLUDE-IGNORED,"Raw NASA POWER hourly meteorological record; git-ignored per repo data policy, verifiable via data/raw/MANIFEST.csv."
+nasapower_maravalia/hourly/lat_-3.7_lon_-38.8.rds,1615568,INCLUDE-IGNORED,"Raw NASA POWER hourly meteorological record; git-ignored per repo data policy, verifiable via data/raw/MANIFEST.csv."
+nasapower_maravalia/hourly/lat_-3.7_lon_-39.2.rds,1687416,INCLUDE-IGNORED,"Raw NASA POWER hourly meteorological record; git-ignored per repo data policy, verifiable via data/raw/MANIFEST.csv."
+nasapower_maravalia/hourly/lat_-3.7_lon_-39.3.rds,1687421,INCLUDE-IGNORED,"Raw NASA POWER hourly meteorological record; git-ignored per repo data policy, verifiable via data/raw/MANIFEST.csv."
+nasapower_maravalia/hourly/lat_-3.8_lon_-39.3.rds,1720518,INCLUDE-IGNORED,"Raw NASA POWER hourly meteorological record; git-ignored per repo data policy, verifiable via data/raw/MANIFEST.csv."
+nasapower_maravalia/hourly/lat_-3.8_lon_-39.5.rds,1720517,INCLUDE-IGNORED,"Raw NASA POWER hourly meteorological record; git-ignored per repo data policy, verifiable via data/raw/MANIFEST.csv."
+nasapower_maravalia/hourly/lat_-3.8_lon_-40.8.rds,1721422,INCLUDE-IGNORED,"Raw NASA POWER hourly meteorological record; git-ignored per repo data policy, verifiable via data/raw/MANIFEST.csv."
+nasapower_maravalia/hourly/lat_-3.9_lon_-38.5.rds,1716501,INCLUDE-IGNORED,"Raw NASA POWER hourly meteorological record; git-ignored per repo data policy, verifiable via data/raw/MANIFEST.csv."
+nasapower_maravalia/hourly/lat_-3.9_lon_-40.4.rds,1721424,INCLUDE-IGNORED,"Raw NASA POWER hourly meteorological record; git-ignored per repo data policy, verifiable via data/raw/MANIFEST.csv."
+nasapower_maravalia/hourly/lat_-3.9_lon_-40.5.rds,1721423,INCLUDE-IGNORED,"Raw NASA POWER hourly meteorological record; git-ignored per repo data policy, verifiable via data/raw/MANIFEST.csv."
+nasapower_maravalia/hourly/lat_-3.9_lon_-41.7.rds,1730885,INCLUDE-IGNORED,"Raw NASA POWER hourly meteorological record; git-ignored per repo data policy, verifiable via data/raw/MANIFEST.csv."
+nasapower_maravalia/hourly/lat_-4.0_lon_-38.5.rds,1716499,INCLUDE-IGNORED,"Raw NASA POWER hourly meteorological record; git-ignored per repo data policy, verifiable via data/raw/MANIFEST.csv."
+nasapower_maravalia/hourly/lat_-4.0_lon_-38.6.rds,1716509,INCLUDE-IGNORED,"Raw NASA POWER hourly meteorological record; git-ignored per repo data policy, verifiable via data/raw/MANIFEST.csv."
+nasapower_maravalia/hourly/lat_-4.0_lon_-38.9.rds,1716505,INCLUDE-IGNORED,"Raw NASA POWER hourly meteorological record; git-ignored per repo data policy, verifiable via data/raw/MANIFEST.csv."
+nasapower_maravalia/hourly/lat_-4.0_lon_-40.1.rds,1730391,INCLUDE-IGNORED,"Raw NASA POWER hourly meteorological record; git-ignored per repo data policy, verifiable via data/raw/MANIFEST.csv."
+nasapower_maravalia/hourly/lat_-4.2_lon_-38.2.rds,1622829,INCLUDE-IGNORED,"Raw NASA POWER hourly meteorological record; git-ignored per repo data policy, verifiable via data/raw/MANIFEST.csv."
+nasapower_maravalia/hourly/lat_-4.2_lon_-38.5.rds,1716509,INCLUDE-IGNORED,"Raw NASA POWER hourly meteorological record; git-ignored per repo data policy, verifiable via data/raw/MANIFEST.csv."
+nasapower_maravalia/hourly/lat_-4.2_lon_-40.4.rds,1721428,INCLUDE-IGNORED,"Raw NASA POWER hourly meteorological record; git-ignored per repo data policy, verifiable via data/raw/MANIFEST.csv."
+nasapower_maravalia/hourly/lat_-4.3_lon_-38.5.rds,1737889,INCLUDE-IGNORED,"Raw NASA POWER hourly meteorological record; git-ignored per repo data policy, verifiable via data/raw/MANIFEST.csv."
+nasapower_maravalia/hourly/lat_-4.3_lon_-39.0.rds,1737892,INCLUDE-IGNORED,"Raw NASA POWER hourly meteorological record; git-ignored per repo data policy, verifiable via data/raw/MANIFEST.csv."
+nasapower_maravalia/hourly/lat_-4.3_lon_-39.3.rds,1719463,INCLUDE-IGNORED,"Raw NASA POWER hourly meteorological record; git-ignored per repo data policy, verifiable via data/raw/MANIFEST.csv."
+nasapower_maravalia/hourly/lat_-4.3_lon_-41.8.rds,1738965,INCLUDE-IGNORED,"Raw NASA POWER hourly meteorological record; git-ignored per repo data policy, verifiable via data/raw/MANIFEST.csv."
+nasapower_maravalia/hourly/lat_-4.5_lon_-38.3.rds,1713596,INCLUDE-IGNORED,"Raw NASA POWER hourly meteorological record; git-ignored per repo data policy, verifiable via data/raw/MANIFEST.csv."
+nasapower_maravalia/hourly/lat_-4.6_lon_-37.8.rds,1589133,INCLUDE-IGNORED,"Raw NASA POWER hourly meteorological record; git-ignored per repo data policy, verifiable via data/raw/MANIFEST.csv."
+nasapower_maravalia/hourly/lat_-4.6_lon_-38.9.rds,1737894,INCLUDE-IGNORED,"Raw NASA POWER hourly meteorological record; git-ignored per repo data policy, verifiable via data/raw/MANIFEST.csv."
+nasapower_maravalia/hourly/lat_-4.7_lon_-37.8.rds,1589136,INCLUDE-IGNORED,"Raw NASA POWER hourly meteorological record; git-ignored per repo data policy, verifiable via data/raw/MANIFEST.csv."
+nasapower_maravalia/hourly/lat_-4.7_lon_-39.5.rds,1719463,INCLUDE-IGNORED,"Raw NASA POWER hourly meteorological record; git-ignored per repo data policy, verifiable via data/raw/MANIFEST.csv."
+nasapower_maravalia/hourly/lat_-4.8_lon_-38.0.rds,1738134,INCLUDE-IGNORED,"Raw NASA POWER hourly meteorological record; git-ignored per repo data policy, verifiable via data/raw/MANIFEST.csv."
+nasapower_maravalia/hourly/lat_-4.8_lon_-38.7.rds,1740907,INCLUDE-IGNORED,"Raw NASA POWER hourly meteorological record; git-ignored per repo data policy, verifiable via data/raw/MANIFEST.csv."
+nasapower_maravalia/hourly/lat_-4.8_lon_-40.1.rds,1718259,INCLUDE-IGNORED,"Raw NASA POWER hourly meteorological record; git-ignored per repo data policy, verifiable via data/raw/MANIFEST.csv."
+nasapower_maravalia/hourly/lat_-4.8_lon_-42.1.rds,1738943,INCLUDE-IGNORED,"Raw NASA POWER hourly meteorological record; git-ignored per repo data policy, verifiable via data/raw/MANIFEST.csv."
+nasapower_maravalia/hourly/lat_-5.0_lon_-38.0.rds,1738132,INCLUDE-IGNORED,"Raw NASA POWER hourly meteorological record; git-ignored per repo data policy, verifiable via data/raw/MANIFEST.csv."
+nasapower_maravalia/hourly/lat_-5.0_lon_-38.6.rds,1740903,INCLUDE-IGNORED,"Raw NASA POWER hourly meteorological record; git-ignored per repo data policy, verifiable via data/raw/MANIFEST.csv."
+nasapower_maravalia/hourly/lat_-5.0_lon_-39.0.rds,1740896,INCLUDE-IGNORED,"Raw NASA POWER hourly meteorological record; git-ignored per repo data policy, verifiable via data/raw/MANIFEST.csv."
+nasapower_maravalia/hourly/lat_-5.1_lon_-38.0.rds,1738133,INCLUDE-IGNORED,"Raw NASA POWER hourly meteorological record; git-ignored per repo data policy, verifiable via data/raw/MANIFEST.csv."
+nasapower_maravalia/hourly/lat_-5.1_lon_-38.1.rds,1738140,INCLUDE-IGNORED,"Raw NASA POWER hourly meteorological record; git-ignored per repo data policy, verifiable via data/raw/MANIFEST.csv."
+nasapower_maravalia/hourly/lat_-5.1_lon_-38.3.rds,1738136,INCLUDE-IGNORED,"Raw NASA POWER hourly meteorological record; git-ignored per repo data policy, verifiable via data/raw/MANIFEST.csv."
+nasapower_maravalia/hourly/lat_-5.2_lon_-38.1.rds,1738139,INCLUDE-IGNORED,"Raw NASA POWER hourly meteorological record; git-ignored per repo data policy, verifiable via data/raw/MANIFEST.csv."
+nasapower_maravalia/hourly/lat_-5.4_lon_-38.3.rds,1728431,INCLUDE-IGNORED,"Raw NASA POWER hourly meteorological record; git-ignored per repo data policy, verifiable via data/raw/MANIFEST.csv."
+nasapower_maravalia/hourly/lat_-5.5_lon_-37.6.rds,1703979,INCLUDE-IGNORED,"Raw NASA POWER hourly meteorological record; git-ignored per repo data policy, verifiable via data/raw/MANIFEST.csv."
+nasapower_maravalia/hourly/lat_-5.5_lon_-39.5.rds,1721061,INCLUDE-IGNORED,"Raw NASA POWER hourly meteorological record; git-ignored per repo data policy, verifiable via data/raw/MANIFEST.csv."
+nasapower_maravalia/hourly/lat_-5.6_lon_-37.8.rds,1703984,INCLUDE-IGNORED,"Raw NASA POWER hourly meteorological record; git-ignored per repo data policy, verifiable via data/raw/MANIFEST.csv."
+nasapower_maravalia/hourly/lat_-6.3_lon_-38.7.rds,1747577,INCLUDE-IGNORED,"Raw NASA POWER hourly meteorological record; git-ignored per repo data policy, verifiable via data/raw/MANIFEST.csv."
+nasapower_maravalia/hourly/lat_-6.7_lon_-38.3.rds,1741394,INCLUDE-IGNORED,"Raw NASA POWER hourly meteorological record; git-ignored per repo data policy, verifiable via data/raw/MANIFEST.csv."
+nasapower_maravalia/hourly/lat_-6.8_lon_-38.5.rds,1752056,INCLUDE-IGNORED,"Raw NASA POWER hourly meteorological record; git-ignored per repo data policy, verifiable via data/raw/MANIFEST.csv."
+review_2026-09-28/CHANGES_v2.md,2531,INCLUDE,Audit log and pipeline revision documentation (to be stored in docs/)
+review_2026-09-28/FIGURES_v3.md,7549,INCLUDE,Audit log and pipeline revision documentation (to be stored in docs/)
+review_2026-09-28/RUN_REPORT_v2.md,36206,INCLUDE,Audit log and pipeline revision documentation (to be stored in docs/)
+review_2026-09-28/epi_by_site_scenario.csv,48404,INCLUDE,Scenario evaluation data supporting spatial/localities figures
+review_2026-09-28/epi_monthly_scenario.csv,255750,INCLUDE,Scenario evaluation data supporting spatial/localities figures
+review_2026-09-28/epi_scenarios.py,3536,INCLUDE,Python cross-check and scenario verification script
+review_2026-09-28/host_localities.py,1482,INCLUDE,Python cross-check and scenario verification script
+review_2026-09-28/host_localities_epi_scenarios.csv,15236,INCLUDE,Scenario evaluation data supporting spatial/localities figures
+review_2026-09-28/make_v2.py,8007,INCLUDE,Python cross-check and scenario verification script
+review_2026-09-28/tmp/site_epidemic_rankings.csv,6843,INCLUDE,Scenario evaluation data supporting spatial/localities figures
+review_2026-09-28/tmp/tableS3_v2.csv,3687,INCLUDE,Scenario evaluation data supporting spatial/localities figures
+tables_v2/all_infection_models_metrics.csv,1000,INCLUDE,Reference output tables for pipeline verification (kept in reference_outputs/)
+tables_v2/australian_model_validation_summary.csv,2585,INCLUDE,Reference output tables for pipeline verification (kept in reference_outputs/)
+tables_v2/bootstrap_gamma_results.csv,245,INCLUDE,Reference output tables for pipeline verification (kept in reference_outputs/)
+tables_v2/infection_model_cv_results.csv,298,INCLUDE,Reference output tables for pipeline verification (kept in reference_outputs/)
+tables_v2/infection_model_metrics.csv,553,INCLUDE,Reference output tables for pipeline verification (kept in reference_outputs/)
+tables_v2/infection_model_parameters.csv,2069,INCLUDE,Reference output tables for pipeline verification (kept in reference_outputs/)
+tables_v2/monthly_climatology_summary.csv,1274,INCLUDE,Reference output tables for pipeline verification (kept in reference_outputs/)
+tables_v2/rh_sensitivity_comparison.csv,501,INCLUDE,Reference output tables for pipeline verification (kept in reference_outputs/)
+tables_v2/site_epidemic_rankings.csv,6843,INCLUDE,Reference output tables for pipeline verification (kept in reference_outputs/)
+tables_v2_maxh24/all_infection_models_metrics.csv,1000,INCLUDE,Reference output tables for pipeline verification (kept in reference_outputs/)
+tables_v2_maxh24/australian_model_validation_summary.csv,2582,INCLUDE,Reference output tables for pipeline verification (kept in reference_outputs/)
+tables_v2_maxh24/bootstrap_gamma_results.csv,245,INCLUDE,Reference output tables for pipeline verification (kept in reference_outputs/)
+tables_v2_maxh24/infection_model_metrics.csv,545,INCLUDE,Reference output tables for pipeline verification (kept in reference_outputs/)
+tables_v2_maxh24/infection_model_parameters.csv,2069,INCLUDE,Reference output tables for pipeline verification (kept in reference_outputs/)
+tables_v2_maxh24/monthly_climatology_summary.csv,1276,INCLUDE,Reference output tables for pipeline verification (kept in reference_outputs/)
+tables_v2_maxh24/rh_sensitivity_comparison.csv,499,INCLUDE,Reference output tables for pipeline verification (kept in reference_outputs/)
+tables_v2_maxh24/site_epidemic_rankings.csv,6848,INCLUDE,Reference output tables for pipeline verification (kept in reference_outputs/)
+tables_v2_precip1/all_infection_models_metrics.csv,1000,INCLUDE,Reference output tables for pipeline verification (kept in reference_outputs/)
+tables_v2_precip1/australian_model_validation_summary.csv,2599,INCLUDE,Reference output tables for pipeline verification (kept in reference_outputs/)
+tables_v2_precip1/bootstrap_gamma_results.csv,245,INCLUDE,Reference output tables for pipeline verification (kept in reference_outputs/)
+tables_v2_precip1/infection_model_metrics.csv,545,INCLUDE,Reference output tables for pipeline verification (kept in reference_outputs/)
+tables_v2_precip1/infection_model_parameters.csv,2069,INCLUDE,Reference output tables for pipeline verification (kept in reference_outputs/)
+tables_v2_precip1/monthly_climatology_summary.csv,1259,INCLUDE,Reference output tables for pipeline verification (kept in reference_outputs/)
+tables_v2_precip1/rh_sensitivity_comparison.csv,504,INCLUDE,Reference output tables for pipeline verification (kept in reference_outputs/)
+tables_v2_precip1/site_epidemic_rankings.csv,6844,INCLUDE,Reference output tables for pipeline verification (kept in reference_outputs/)

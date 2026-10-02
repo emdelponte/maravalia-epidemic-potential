@@ -1,0 +1,4 @@
+Model,LOWO_RMSE,LOTO_RMSE
+Model 1 — Separable Generalized Beta × Weibull,0.8491964249019902,0.19964706487401435
+Model 2 — Wetness-expanded Analytis × Weibull,0.3388304179109565,0.224842714702858
+Model 3 — Gaussian wetness-dependent breadth × Weibull,0.2368589922252582,0.16977541468997853

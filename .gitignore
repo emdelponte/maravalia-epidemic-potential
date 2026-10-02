@@ -1,0 +1,35 @@
+# Generated outputs (regenerated via run_all.R)
+outputs/tables/*
+!outputs/tables/.gitkeep
+outputs/figures/*
+!outputs/figures/.gitkeep
+outputs/models/*
+!outputs/models/.gitkeep
+outputs/logs/*
+!outputs/logs/.gitkeep
+outputs/tables_v2_precip1/
+outputs/tables_v2_maxh24/
+
+# Derived data (regenerated via pipeline)
+data/derived/*
+!data/derived/.gitkeep
+data/derived_precip1/
+data/derived_maxh24/
+
+# Raw NASA POWER hourly meteorological data (archived copy on Zenodo)
+data/raw/nasapower_maravalia/hourly/*.rds
+data/raw/nasapower_australia/hourly/*.rds
+
+# R runtime & history
+.Rhistory
+.RData
+.Ruserdata
+.Rproj.user/
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Operating system artifacts
+.DS_Store
+Thumbs.db

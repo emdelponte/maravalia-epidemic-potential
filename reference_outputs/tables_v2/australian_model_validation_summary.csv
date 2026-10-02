@@ -1,0 +1,14 @@
+site_id,site_name,region,environment_type,Mean_Annual_EPI_inf,Mean_Annual_EPI_spore,Mean_Annual_Episodes,Mean_Annual_High_Inf_Episodes,Mean_LP_days,lat,lon,observed_field_impact
+aus_site_08,McLeod River,Cooktown Hinterland,Riparian / Watercourse,160.99877057166034,160.68981447701262,332.12,168.08,13.932732773932702,-16.4833,145.2333,Heavy rust (47 pustules cm^-2); total defoliation
+aus_site_13,Laura Lea,Cape York Peninsula,Moist South-East Airflow,80.08688778250705,80.0240100647485,202.84,77.96,10.808905569498808,-15.5583,144.4447,Enhanced rust intensity; 20% mortality by 1999
+aus_site_02,Lakefield NP,Cape York Peninsula,Moist Coastal Airflow,69.29611467742156,69.2677319272172,190.92,62.44,10.339544053037732,-14.9356,144.2047,High defoliation & 20-75% weed mortality
+aus_site_01,Chillagoe NP,Tropical North QLD,Inland / Karst,57.528653699297145,57.45698021920659,202.6,56.2,12.06351853474146,-17.1517,144.52440000000001,Spread to 80 km by Aug 1996
+aus_site_11,Charters Towers,Inland Central QLD,Inland Research Hub (TWRC),42.50279157807436,42.37394729628286,176.92,41.84,13.57610389673113,-20.0764,146.2611,Key monitoring hub; heavy rust in wet years
+aus_site_03,Wrotham Park,Gulf Region,Gulf Savanna,41.4372092824594,41.385417804816264,154.32,34.56,10.678555329384398,-16.6342,144.0042,Rapid spread to 50 km in 8 months
+aus_site_10,Rockhampton,Central QLD Coast,Subtropical Coast,35.83150634261045,35.8222910787647,157.32,31.76,14.642754000146473,-23.375,150.5117,Rapid spread over 100 km in 14 months
+aus_site_07,Georgetown,Etheridge Inland,Elevated Dry Inland,23.03041216840782,22.882736706923712,86.84,23.52,12.23271866527979,-18.2917,143.5475,Moderate rust; shorter wet season duration
+aus_site_04,Rutland Plains,Gulf Coast,Gulf Lowlands,15.424507048923632,15.42401219971106,100.88,8.28,9.392916016139775,-15.5458,141.7258,Satellite spread >20 km detected
+aus_site_09,Strathmore,Gulf / Croydon,Gulf Savanna,11.678544292951482,11.626505539814156,52.04,8.44,9.648578648585925,-17.85,142.3667,Spread to 45 km by Aug 1996
+aus_site_12,Hughenden,Dry Inland QLD,Semi-Arid (<600mm rain),8.048176373095876,8.002330318718625,36.52,7.32,14.24258608176453,-20.8433,144.2008,Inadequate control in most years due to dry air
+aus_site_05,Inkerman,Burdekin Coast,Sand Ridge / Clay Floodplain,5.744641475187737,5.744641475187737,21.92,5.12,10.954755638447756,-19.7431,147.4647,Severe rust damage; up to 75% mortality
+aus_site_06,Delta Downs,Gulf of Carpentaria,Coastal Gulf,0.7201342623936583,0.7201342623936583,3.56,0.72,10.309365981240981,-17.1008,140.9167,Spread to 70 km in 18 months
