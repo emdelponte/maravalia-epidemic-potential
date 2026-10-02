@@ -1,6 +1,7 @@
 # Reproducibility Summary
 
 **Study**: Epidemic Potential of *Maravalia cryptostegiae*, a Classical Biological Control Agent of Rubber Vine, in Northeastern Brazil  
+**Version**: 2.0.1 (Released: 2026-10-02)  
 **Status**: All analytical results, tables, and figures fully reproduced and verified.
 
 ---

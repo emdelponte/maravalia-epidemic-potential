@@ -1,0 +1,42 @@
+{
+  "title": "Epidemic Potential of Maravalia cryptostegiae, a Classical Biological Control Agent of Rubber Vine, in Northeastern Brazil",
+  "description": "Reproducible computational workflow, nonlinear epidemiological models, and evaluation pipelines for evaluating the epidemic potential of Maravalia cryptostegiae, a classical biological control agent of rubber vine (Cryptostegia madagascariensis), in Northeastern Brazil and Queensland, Australia.",
+  "creators": [
+    {
+      "name": "Del Ponte, Emerson M.",
+      "affiliation": "Universidade Federal de Viçosa, Departamento de Fitopatologia, Viçosa, MG, Brazil",
+      "orcid": "0000-0003-4398-409X"
+    },
+    {
+      "name": "de Costa, J. S.",
+      "affiliation": "Universidade Federal de Viçosa, Departamento de Fitopatologia, Viçosa, MG, Brazil"
+    },
+    {
+      "name": "Barreto, R. W.",
+      "affiliation": "Universidade Federal de Viçosa, Departamento de Fitopatologia, Viçosa, MG, Brazil"
+    }
+  ],
+  "access_right": "open",
+  "license": "MIT",
+  "upload_type": "software",
+  "keywords": [
+    "biological control",
+    "plant pathology",
+    "Maravalia cryptostegiae",
+    "Cryptostegia madagascariensis",
+    "epidemiological modeling",
+    "reproducible research"
+  ],
+  "related_identifiers": [
+    {
+      "scheme": "url",
+      "identifier": "https://github.com/emdelponte/maravalia-epidemic-potential",
+      "relation": "isSupplementTo"
+    },
+    {
+      "scheme": "doi",
+      "identifier": "10.5281/zenodo.23111223",
+      "relation": "isSupplementedBy"
+    }
+  ]
+}

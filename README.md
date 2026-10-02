@@ -2,7 +2,9 @@
 
 [![License: MIT](https://img.shields.io/badge/Code%20License-MIT-blue.svg)](LICENSE)
 [![License: CC BY 4.0](https://img.shields.io/badge/Data%20License-CC%20BY%204.0-lightgrey.svg)](LICENSE-data)
-[![DOI](https://img.shields.io/badge/DOI-10.5281%2Fzenodo.placeholder-blue)](https://doi.org/10.5281/zenodo.placeholder)
+[![DOI](https://img.shields.io/badge/DOI-10.5281%2Fzenodo.23111213-blue.svg)](https://doi.org/10.5281/zenodo.23111213)
+[![Data](https://img.shields.io/badge/Data-10.5281%2Fzenodo.23111223-blue.svg)](https://doi.org/10.5281/zenodo.23111223)
+[![Version](https://img.shields.io/badge/version-2.0.1-green.svg)](https://github.com/emdelponte/maravalia-epidemic-potential/releases/tag/v2.0.1)
 [![R 4.4+](https://img.shields.io/badge/R-4.4%2B-blue.svg)](https://www.r-project.org/)
 
 This repository contains the complete, reproducible computational workflow, nonlinear epidemiological models, and evaluation pipelines for the manuscript:
@@ -20,7 +22,7 @@ Clone this repository and regenerate every table, model, and publication figure 
 
 ```bash
 # 1. Clone repository
-git clone https://github.com/placeholder/maravalia-epidemic-potential.git
+git clone https://github.com/emdelponte/maravalia-epidemic-potential.git
 cd maravalia-epidemic-potential
 
 # 2. Check and verify meteorological data integrity (or retrieve from Zenodo/NASA POWER)
@@ -167,7 +169,7 @@ maravalia-epidemic-potential/
 
 - **Raw Hourly Weather Data**: The complete 25-year (2001–2025) continuous hourly weather record consists of 65 grid cells for Northeastern Brazil (~106 MB) and 13 monitoring stations for Queensland, Australia (~22 MB). Because these files exceed standard Git repository best-practice sizes, they are excluded via `.gitignore`.
 - **Integrity Validation**: All 78 raw files are cataloged in [`data/raw/MANIFEST.csv`](data/raw/MANIFEST.csv) with their exact file sizes, record counts, date ranges, and SHA-256 cryptographic checksums.
-- **Archived Copy**: An immutable archive of the complete raw dataset is deposited on Zenodo with DOI: [`10.5281/zenodo.placeholder`](https://doi.org/10.5281/zenodo.placeholder).
+- **Archived Copy**: An immutable archive of the complete raw dataset is deposited on Zenodo with DOI: [`10.5281/zenodo.23111223`](https://doi.org/10.5281/zenodo.23111223).
 - **Note on ERA5 Exclusion**: Early preliminary analyses explored ERA5-Land reanalysis (`era5_maravalia/`, `download_era5_maravalia.R`). Due to spatial interpolation artifacts and lower relative humidity fidelity in coastal semi-arid zones, ERA5 was excluded from the final research and superseded entirely by 0.5° NASA POWER hourly meteorological reanalysis.
 
 ---
@@ -181,8 +183,9 @@ To cite this computational repository or its findings:
   author    = {Del Ponte, Emerson M. and de Costa, J. H. and Barreto, Robert W.},
   title     = {Epidemic Potential of \textit{Maravalia cryptostegiae}, a Classical Biological Control Agent of Rubber Vine, in Northeastern Brazil},
   year      = {2026},
-  doi       = {10.5281/zenodo.placeholder},
-  url       = {https://github.com/placeholder/maravalia-epidemic-potential}
+  version   = {2.0.1},
+  doi       = {10.5281/zenodo.23111213},
+  url       = {https://github.com/emdelponte/maravalia-epidemic-potential}
 }
 ```
 

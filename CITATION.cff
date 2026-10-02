@@ -12,11 +12,11 @@ authors:
     given-names: "R. W."
     affiliation: "Universidade Federal de Viçosa, Departamento de Fitopatologia, Viçosa, MG, Brazil"
 title: "Epidemic Potential of Maravalia cryptostegiae, a Classical Biological Control Agent of Rubber Vine, in Northeastern Brazil"
-version: 2.0.0
-doi: 10.5281/zenodo.placeholder
-date-released: 2026-09-28
-url: "https://github.com/placeholder/maravalia-epidemic-potential"
-repository-code: "https://github.com/placeholder/maravalia-epidemic-potential"
+version: 2.0.1
+doi: 10.5281/zenodo.23111213
+date-released: 2026-10-02
+url: "https://github.com/emdelponte/maravalia-epidemic-potential"
+repository-code: "https://github.com/emdelponte/maravalia-epidemic-potential"
 keywords:
   - "biological control"
   - "plant pathology"
